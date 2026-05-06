@@ -14,8 +14,7 @@ import { IoLogoHtml5 } from "react-icons/io";
 import linkdin from "../assets/linkdin.png"; // Placeholder image import
 import { IoShareSocial } from "react-icons/io5";
 import Particles from "../component/Particals";
-import { link } from "framer-motion/client";
-
+import Resume from "../assets/Akash_Resume.pdf";
 // --- SVG Icons ---
 const CVIcon = () => (
   <svg
@@ -169,13 +168,13 @@ const HeroSection = () => {
                 <span className="text-[#08afdd] font-medium">
                   Frontend/React Developer
                 </span>{" "}
-                with hands-on experience building responsive web applications
-                using React.js. building scalable SaaS products, AI platforms,
-                secure portals, and high-performance web applications with
-                strong attention to system design, frontend quality, and
-                delivery rigor. I am passionate about writing clean code,
-                learning modern frontend practices, and contributing to
-                high-quality digital products.
+                 with hands-on experience in building
+                responsive web applications using React.js. Adept at creating
+                scalable, user-friendly applications and optimizing Frontend
+                UI/UX design, with an impressive ability to leverage Generative AI and
+                quickly adapt to new technologies. I am passionate about writing
+                clean code, learning modern frontend practices, and contributing
+                to high-quality digital products.
               </motion.p>
 
               {/* Skill Tags */}
@@ -202,9 +201,16 @@ const HeroSection = () => {
                 variants={textVariant}
                 className="flex flex-wrap gap-4 mt-4 text-md"
               >
-                <button className="bg-gradient-to-r from-blue-700 to-purple-800 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-2.5 px-7 rounded-xl flex items-center gap-2 transition-colors cursor-pointer">
-                  <CVIcon />
-                  View CV
+                <button>
+                  <a
+                    href={Resume}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-linear-to-r from-blue-700 to-purple-800 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-2.5 px-7 rounded-xl flex items-center gap-2 transition-colors cursor-pointer"
+                  >
+                    <CVIcon />
+                    View CV
+                  </a>
                 </button>
                 <a
                   href={`tel:9899843347`}
@@ -239,7 +245,7 @@ const HeroSection = () => {
                     color: "#0A66C2",
                     bgGradient: "from-blue-600 to-blue-400",
                     label: "LinkedIn",
-                    link: "www.linkedin.com/in/akash-mishra-b4440b331",
+                    link: "https://www.linkedin.com/in/akash-mishra-b4440b331",
                   },
                   {
                     icon: "FaWhatsapp",

@@ -26,9 +26,9 @@ const imageVariants = {
 
 // --- Data ---
 const stats = [
-  { label: "Years Experience", value: "1+" },
+  { label: "Years Experience", value: "0.6" },
   { label: "Projects Completed", value: "5+" },
-  { label: "Technologies Mastered", value: "10+" },
+  { label: "Technologies Mastered", value: "8+" },
   { label: "Commitment", value: "100%" },
 ];
 
@@ -113,7 +113,7 @@ const AboutMe = () => {
                 Hello! I'm <span className="text-white font-semibold">Akash Mishra</span>, a passionate Frontend Developer based in India. My journey into web development began with a fascination for how design and logic intersect to create meaningful digital experiences.
               </p>
               <p>
-                With <span className="text-blue-400 font-medium">one year of dedicated experience</span>, I specialize in crafting robust, pixel-perfect user interfaces using the <span className="text-blue-400 font-medium">React ecosystem</span>. I thrive in collaborative environments, bringing concepts to life from the initial wireframe to the final deployment.
+              specialize in crafting robust, pixel-perfect user interfaces using the <span className="text-blue-400 font-medium">React ecosystem</span>. I thrive in collaborative environments, bringing concepts to life from the initial wireframe to the final deployment.
               </p>
               <p>
                 When I'm not coding, you can find me exploring New Technologies. I believe in continuous growth and am always looking for the next challenge to expand my horizons.

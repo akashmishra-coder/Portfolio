@@ -4,6 +4,7 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript } from "react-icons/io";
 import { IoLogoReact } from "react-icons/io5";
 import { RiReactjsFill } from "react-icons/ri";
+import { BsTypescript } from "react-icons/bs";
 
 // --- Reusable SVG Icons ---
 const CodeIcon = () => (
@@ -34,16 +35,10 @@ const skillsData = [
       { name: "HTML5", icon: "html5", color: "#E34F26" },
       { name: "CSS3", icon: "css3", color: "#1572B6" },
       { name: "JavaScript", icon: "javascript", color: "#F7DF1E" },
-      { name: "TypeScript", icon: "typescript", color: "#3178C6" },
-    ],
-  },
-  {
-    title: "Frameworks & Libraries",
-    icon: <LayersIcon />,
-    items: [
       { name: "React JS", icon: "react", color: "#61DAFB" },
-      { name: "Bootstrap", icon: "bootstrap", color: "#7952B3" },
       { name: "Tailwind CSS", icon: "tailwind", color: "#06B6D4" },
+      { name: "TypeScript", icon: "typescript", color: "#3178C6" },
+      { name: "Bootstrap", icon: "bootstrap", color: "#7952B3" },
     ],
   },
   {
@@ -65,6 +60,7 @@ const renderIcon = (name) => {
     case "css3": return <IoLogoCss3 size={50} />;
     case "javascript": return <IoLogoJavascript size={50} />;
     case "react": return <RiReactjsFill size={50} />;
+    case "typescript": return <BsTypescript size={50} />;
     case "bootstrap":
       return (
         <svg viewBox="0 0 128 128" fill="currentColor" className="w-[50px] h-[50px]">
